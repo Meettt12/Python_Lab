@@ -1,8 +1,6 @@
-#1. Write a program to create a class that represents Complex numbers containing real and
-#imaginary parts and then use it to perform complex number addition, subtraction,
-#multiplication and division
+#Complex numbers With Using Class
 
-class myComplex:
+class ComplexNumbers:
     def __init__(self,real,imag):
         self.real = real
         self.imag = imag
@@ -36,8 +34,8 @@ class myComplex:
         return result
         
         
-obj1 = myComplex(2,8)
-obj2 = myComplex(7,3)
+obj1 = ComplexNumber(2,8)
+obj2 = ComplexNumber(7,3)
 obj1.printComplex()
 obj2.printComplex()
 obj1.Add(obj2)
