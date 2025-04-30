@@ -1,5 +1,7 @@
+#List
+
 import random
-def q3():
+def List():
     lst=[]
     for i in range(50):
         lst.append(random.randint(1,30))
@@ -9,3 +11,5 @@ def q3():
         if i not in l:
             l.append(i)
     print(l)
+
+List()
