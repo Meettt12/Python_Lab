@@ -1,6 +1,8 @@
+# Counting Alphabet And Numbers
+
 str=input('Enter the string : ')
 
-def countAlphabate():
+def CountAlphabate():
     countAlp=0
     countDig=0
     for ch in str:
@@ -13,4 +15,4 @@ def countAlphabate():
     print('The number of Alphabates are : ',countAlp)
     print('The number of Digits are : ',countDig)
     
-countAlphabate()
+CountAlphabate()
