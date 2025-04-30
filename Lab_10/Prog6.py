@@ -1,9 +1,11 @@
-#Write a program that merges lines alternatively from two files and writes the results
-#to new file. If one file has less number of lines than the other,
-#the remaining lines from the larger file should be simply copied into the target file.
-f = open(r"C:\Users\rahul\OneDrive\Desktop\Book1.csv")
-f1 = open(r"C:\Users\rahul\OneDrive\Desktop\Book3.csv")
-f3 = open(r"C:\Users\rahul\OneDrive\Desktop\Book4.csv","w+")
+"""Write a program that merges lines alternatively from two files and writes the resultsto new file. If one file has less number of lines than the other,
+the remaining lines from the larger file should be simply copied into the target file."""
+
+
+
+f = open(r"D:\College\Python\Lab10\Excel1.csv")
+f1 = open(r"D:\College\Python\Lab10\Excel2.csv")
+f3 = open(r"D:\College\Python\Lab10\Excel3.csv","w+")
 lines1 = f.readlines()
 lines2 = f1.readlines()
 max_len = max(len(lines1),len(lines2))
