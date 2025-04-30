@@ -1,4 +1,6 @@
-def q4():
+#Set
+
+def que():
     s=set()
     x=int(input("Enter the no of values you want to add in set:"))
     for i in range(x):
@@ -13,3 +15,5 @@ def q4():
             b.add(i)
     print(a)
     print(b)
+
+que()
