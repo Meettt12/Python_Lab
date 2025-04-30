@@ -1,4 +1,5 @@
-def vovel():
+# Counting Vowel
+def vowel():
     a=input('Enter the string:')
     b=a.count('a')
     c=a.count('e')
