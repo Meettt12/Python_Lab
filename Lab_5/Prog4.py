@@ -1,5 +1,7 @@
+#List
+
 import random
-def q4():
+def List():
     lst=[]
     for i in range(30):
         lst.append(random.randint(-100,100))
@@ -12,3 +14,4 @@ def q4():
         else:
             n.append(i)
     print(p,n)
+List()
