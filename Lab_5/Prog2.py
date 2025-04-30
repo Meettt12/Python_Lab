@@ -1,5 +1,7 @@
+#Random
+
 import random
-def q2():
+def List():
     lst=[]
     for i in range(20):
         lst.append(random.randint(1,10))
@@ -8,3 +10,6 @@ def q2():
     for j in range(10):
         if lst[j]==inp:
             print(j)
+
+
+List()
