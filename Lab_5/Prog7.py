@@ -1,5 +1,6 @@
+#Methods Of List
 
-def q7():
+def prob7():
     l = []
     def push():
         item = input("Enter element to push: ")
@@ -47,3 +48,7 @@ def q7():
             break
         else:
             print("Invalid choice! Please enter a number between 1 and 5.")
+
+
+
+prob7()
