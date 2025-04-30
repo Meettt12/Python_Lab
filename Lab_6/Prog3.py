@@ -1,6 +1,10 @@
+#tuple
+
 def is_leap_year(year):
    
     return (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0)
+
+is_leap_year(2022)
 
 def days_in_month(month, year):
 
@@ -8,6 +12,8 @@ def days_in_month(month, year):
     if is_leap_year(year):
         days_in_months[1] = 29  # February has 29 days in a leap year
     return days_in_months[month - 1]
+
+days_in_month(12, 2015)
 
 def total_days(d, m, y):
     
@@ -26,6 +32,8 @@ def total_days(d, m, y):
     
     return days
 
+total_days(12, 12, 2012)
+
 def days_between_dates(date1, date2):
     
     total_days1 = total_days(date1[0], date1[1], date1[2])
@@ -33,7 +41,6 @@ def days_between_dates(date1, date2):
     
     
     return abs(total_days2 - total_days1)
-
 
 date1 = (1, 1, 2020)  # 1st January 2020
 date2 = (1, 1, 2025)  # 1st January 2025
