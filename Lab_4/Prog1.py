@@ -1,3 +1,5 @@
+#Lower & Upper
+
 def uperAndLower():
     print('Upper Case Alphabates : ')
     for i in range(65,91):
