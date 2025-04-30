@@ -1,4 +1,6 @@
-def q6():
+#List
+
+def question6():
     fahrenheit = [32, 68, 104, 212, 50]  # Example temperatures
     celsius = []
 
@@ -6,3 +8,4 @@ def q6():
         celsius.append((f - 32) * 5 / 9)
 
     print(celsius)
+question6()
