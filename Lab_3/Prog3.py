@@ -1,4 +1,6 @@
-def therein():
+# A In B
+
+def in():
     a=input('Enter the string :')
     b=input('Enter the string to match:')
     if b in a :
@@ -6,5 +8,5 @@ def therein():
     else:
         print('No !!')
 
-therein()
+in()
     
