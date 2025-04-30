@@ -1,4 +1,6 @@
-def q1():
+#Fun In Fun
+
+def q():
     def fun():
         print("This is fun function")
     def disp():
@@ -8,4 +10,4 @@ def q1():
     l=[fun,disp,msg]
     for i in l:
         i()
-q1()
+q()
