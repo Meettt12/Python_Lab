@@ -1,3 +1,5 @@
+#Numbers
+
 n = int(input('Enter the number : '))
 
 def prime():
