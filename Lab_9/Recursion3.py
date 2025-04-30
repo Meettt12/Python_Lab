@@ -3,4 +3,4 @@ def apb(a,b):
         return 1
     else:
         return a*(apb(a,b-1))
-print(apb(2,3))
+print(apb(2,7))
