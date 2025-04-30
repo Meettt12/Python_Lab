@@ -1,4 +1,6 @@
-def q1():
+#set
+
+def s():
     words=[]
     s=set()
     x=int(input("Enter the number of words you want to enter in list:"))
@@ -7,3 +9,5 @@ def q1():
         words.append(word.upper())
     s=set(words)
     print(s)
+
+s()
