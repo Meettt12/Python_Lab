@@ -1,4 +1,6 @@
-def q1():
+#Disctnory
+
+def prob():
     d={}
     d0={"brand": "Ford","model": "Mustang","year": 1964}
     d1={'type' : 'fruit', 'name' : 'banana'}
@@ -7,3 +9,6 @@ def q1():
     d.update(d1)
     d.update(d2)
     print(d)
+
+prob()
+
