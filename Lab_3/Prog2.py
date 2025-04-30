@@ -1,13 +1,6 @@
-def lower():
-    str=input('Enter a string :')
-    str1=''
-    for ch in str:
-        if ch>='A' and ch<='Z':
-            str1=str1+chr(ord(ch)+32)
-        else:
-            str1=str1+ch
-    return str1
-def toggle():
+#Lower And Toggle
+
+def toggle1():
     str=input('Enter a string :')
     str1=''
     for ch in str:
@@ -19,6 +12,16 @@ def toggle():
             str1=str1+ch
     return str1
 
-print(lower())
-print(toggle())
+def lower1():
+    str=input('Enter a string :')
+    str1=''
+    for ch in str:
+        if ch>='A' and ch<='Z':
+            str1=str1+chr(ord(ch)+32)
+        else:
+            str1=str1+ch
+    return str1
+
+print(lower1())
+print(toggle1())
 
