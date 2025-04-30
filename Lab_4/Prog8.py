@@ -1,3 +1,4 @@
+#Factorial
 
 def factorial():
     n = int(input('Enter the number : '))
