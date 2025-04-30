@@ -1,4 +1,6 @@
-def q8():
+#Methods Of List
+
+def Prob8():
     queue = []
 
     def enqueue():
@@ -47,3 +49,5 @@ def q8():
             break
         else:
             print("Invalid choice! Please enter a number between 1 and 5.")
+
+prob8()
