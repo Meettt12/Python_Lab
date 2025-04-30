@@ -1,3 +1,5 @@
+#Function
+
 def ispangram(str):
     str = str.lower()
     s= set(str)
