@@ -1,5 +1,5 @@
-#Write a program to create a class that can calculate the surface area and volume of a solid.
-#The class should also have a provision to accept the data relevant to the solid.
+#VAolume
+
 class Solid:
     def __init__(self,l,w,h):
         self.l = l
