@@ -1,23 +1,24 @@
-def q8():
-    f_r = open('sample.txt', 'r')
-    data = f_r.read()
-    f_r.close()
+# Remove Alphabet
+
+def Remove():
+    fr = open('Sample.txt', 'r')
+    data = fr.read()
+    fr.close()
 
     print("Original Text:", data)
 
-    remove_words = [
-        ' a ', ' an ', ' the ', ' A ', ' An ', ' The ', 
+    remove_words = [' a ', ' an ', ' the ', ' A ', ' An ', ' The ', 
         'a ', 'an ', 'the ', 'A ', 'An ', 'The ',       
-        ' a', ' an', ' the', ' A', ' An', ' The'        
-    ]
+        ' a', ' an', ' the', ' A', ' An', ' The']
+    
     for word in remove_words:
         data = data.replace(word, ' ')  
 
     
-    fw = open('8_out.txt', 'w')
+    fw = open('Sample1.txt', 'w')
     fw.write(data)
     fw.close()
 
-    print("Modified Text Written to 8b.txt")
+    print("Modified Text Written to Sample1.xt")
 
-q8()
+Remove()
