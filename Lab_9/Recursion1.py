@@ -1,4 +1,4 @@
-# write a recursion program for prime factor of positive number
+# recursion program for prime factor of positive number
 def prime(n,diviser = 2,factor = None):
     fact = []
     if n == factor:
