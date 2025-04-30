@@ -1,4 +1,6 @@
-def q3():
+#SET
+
+def que():
     s=set()
     for i in range(5):
         name=input("Enter the name you want to add in set:")
@@ -15,4 +17,4 @@ def q3():
     name=input("Enter the name you want to delete:")
     s.remove(name)
     print(s)
-q3()
+que()
