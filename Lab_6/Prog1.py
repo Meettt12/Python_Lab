@@ -1,4 +1,6 @@
-def q1():
+#Tuple
+
+def Prob1():
     l=[('Ronit','Rudresh Bhai'),('Yug',),'Krish']
     boys=0
     girls=0
@@ -12,3 +14,5 @@ def q1():
         else:
             girls=girls+1
     print(girls,boys)
+
+Prob1()
