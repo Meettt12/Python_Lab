@@ -1,3 +1,5 @@
+# NcR & PcR
+
 n = int(input('Enter the value of n : '))
 r = int(input('Enter the value of r : '))
 def factorial(a):
