@@ -1,0 +1,15 @@
+def vovel():
+    a=input('Enter the string:')
+    b=a.count('a')
+    c=a.count('e')
+    d=a.count('i')
+    e=a.count('o')
+    f=a.count('u')
+    g=a.count('A')
+    h=a.count('E')
+    i=a.count('I')
+    j=a.count('O')
+    k=a.count('U')
+    
+    print(b+c+d+e+f+g+h+j+k+i)
+vovel()
