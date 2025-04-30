@@ -1,3 +1,5 @@
+#Tuple
+
 def q5():
     l=[(),'Ronit',('lst',),[1,2,3],[]]
     for i in l:
@@ -6,3 +8,5 @@ def q5():
         else:
             pass
     print(l)
+
+q5()
