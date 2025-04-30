@@ -1,4 +1,6 @@
-def q4():
+#Dict
+
+def que():
     st=input("Enter any string")
     d={}
     for i in st:
@@ -7,3 +9,5 @@ def q4():
         else:
             d[i]=1
     print(d)
+
+que()
