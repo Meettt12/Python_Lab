@@ -1,3 +1,5 @@
+# Add Data
+
 import pickle
 class Employee:
     def __init__(self, empcode, empname, doj, salary):
@@ -13,14 +15,14 @@ class Employee:
         print(f"Salary: {self.salary}")
 
 
-emp = Employee(100, "Ronit", "2025-12-27", 55000)
+emp = Employee(100, "Dev", "22-07-2024", 55000)
 
 with open("7.pkl", "wb") as file:
     pickle.dump(emp, file)
 
-print(" Employee object serialized successfully!")
+print(" Employee Object Successfully Serialized !")
 
-with open("7.pkl", "rb") as file:
+with open("EM.pkl", "rb") as file:
     loaded_emp = pickle.load(file)
 
 print(" Deserialized Employee object:")
