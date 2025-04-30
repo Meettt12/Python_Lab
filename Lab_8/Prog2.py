@@ -1,9 +1,11 @@
+#Set Methods
+
 import random
-def q2():
+def s():
     s=set()
     count=0
     while(len(s)<10):
-        val=random.randint(15,45)
+        val=random.randint(20,67)
         if val in s:
             continue
         else:
@@ -16,4 +18,4 @@ def q2():
     print("The No of elements less than 30 are:",count)
     print("Updated Set is",s)
 
-q2()
+s()
