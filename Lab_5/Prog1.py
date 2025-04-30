@@ -1,3 +1,5 @@
+# Use Of Random
+
 import random
 odd_numbers = random.sample(range(1, 100, 2), 5)
 even_numbers = random.sample(range(2, 100, 2), 4)
