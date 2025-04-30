@@ -1,3 +1,5 @@
+#VCard
+
 name = input("Enter your name: ")
 phone = input("Enter your phone number: ")
 email = input("Enter your email address: ")
@@ -9,8 +11,8 @@ vcard += "TEL;TYPE=CELL:" + phone + "\n"
 vcard += "EMAIL:" + email + "\n"
 vcard += "END:VCARD"
 
-f = open("contact.vcf", "w")
+f = open("Card.vcf", "w")
 f.write(vcard)
 f.close()
 
-print("Contact saved to contact.vcf!")
+print("Contact Saved to Card.vcf!")
