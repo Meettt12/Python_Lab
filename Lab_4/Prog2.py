@@ -1,3 +1,5 @@
+# Table Of Given Number
+
 def table():
     a=int(input('Enter the number : '))
     for i in range(1,11):
