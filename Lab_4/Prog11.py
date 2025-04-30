@@ -1,4 +1,6 @@
-def q11():
+# Series Of Sin
+
+def Sin():
     def factorial(n):
         fact = 1
         for i in range(1, n + 1):
@@ -13,3 +15,5 @@ def q11():
         sin_x += sign * (x ** power) / factorial(power)
     
     print("sin(x) =", sin_x)
+
+Sin()
