@@ -1,4 +1,6 @@
-def re():
+# Try & Except
+
+def Replace():
     try:
         a=input('Enter the string:')
         b=input('Enter string to remove:')
@@ -8,4 +10,4 @@ def re():
     except:
         print('Invalid')
 
-re()
+Replace()
