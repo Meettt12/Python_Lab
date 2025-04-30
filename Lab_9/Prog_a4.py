@@ -1,4 +1,6 @@
-def q4():
+#Filter 
+
+def q():
     lst = ['madam','Python',"malayalam",12321]
     def isPalindrome(s):
         if(type(s)==str):
@@ -10,4 +12,4 @@ def q4():
             return False
     l=list(filter(isPalindrome,lst))
     print(l)
-q4()
+q()
