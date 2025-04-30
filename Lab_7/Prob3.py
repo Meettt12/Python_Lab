@@ -1,4 +1,6 @@
-def q3():
+#Employees Data
+
+def data():
     employees = {
         1: [101, 5000],
         2: [101, 7000],
@@ -24,3 +26,5 @@ def q3():
 
     for dept_no, stats in dept_salary_stats.items():
         print(f"Department {dept_no}: Min Salary = {stats[0]}, Max Salary = {stats[1]}")
+
+data()
